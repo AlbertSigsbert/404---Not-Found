@@ -38,7 +38,7 @@
 
 > **I developed this page using HTML and CSS.**
 > **I added responsiveness using CSS media-queries.**
-> **Also I sprinkled some CSS Animations and transitions to bring the page to life.**
+> **Also I sprinkled some CSS Animations and transitions to bring the page to life.**<br><br>
 
 ![Screenshot](https://user-images.githubusercontent.com/66664314/200633802-6261c1c9-0619-4c58-9c7d-4b03662e8c93.png)
 
