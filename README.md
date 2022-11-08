@@ -61,5 +61,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - Website [](https://albertsigsbert.netlify.app/)
-- GitHub [AlbertSigsbert](https://{github.com/AlbertSigsbert)
-- Twitter [albert_sigsbert](https://twitter.com/albert_sigsbert)
+- GitHub [](https://github.com/AlbertSigsbert))
+- Twitter [](https://twitter.com/albert_sigsbert)
