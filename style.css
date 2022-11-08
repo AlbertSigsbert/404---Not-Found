@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0 6%;
+}
+
+header {
+    margin: 2% 0;
+}
+
+header h1 {
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+    position: relative;
+    animation: dropdown;
+    animation-duration: 2s;
+    animation-timing-function:ease-out;
+    }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    margin: 8% 0;
+    position: relative;
+    transform: translateX(-120%);
+    animation: swipeRight;
+    animation-duration: 1.5s;
+    animation-timing-function:ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    width: 540px; 
+}
+
+
+.details h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    font-style: normal;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+.details p {
+    margin: 8% 0;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    width: 75%;
+}
+
+.details button{
+    background: #333;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.details button:hover{
+   background-color: #4F4F4F;
+}
+
+/* Keyframes */
+@keyframes dropdown{
+    from { top: -200px;}
+    to { top: 0;}
+}
+
+@keyframes swipeRight{
+    from { transform: translateX(-120%);}
+    to { transform: translateX(0%);}
+}
+
+/* Media Queries */
+@media (max-width: 576px) { 
+    body {
+    height: auto;
+}
+
+header {
+    margin: 8% 0;
+}
+
+.grid {  
+    margin: 16% 0;
+    place-items: center;
+}
+.image img {
+    width: 290px;
+}
+.details h1{
+    font-size: 48px;
+    line-height: 71px;
+   
+}
+.details p{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+ }
